@@ -1,0 +1,545 @@
+/* default -------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  overflow: hidden;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.col-xs-12,
+.col-md-12,
+.col-md-6
+.col-sm-12,
+.col-sm-6,
+.col-sm-4,
+.col-sm-2 {
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.border {
+  width: 40%;
+  height: 1px;
+  background: #2ECC71;
+  margin: 10px 0;
+}
+
+.space {
+  width: 1px;
+  height: 1px;
+  margin: 5px;
+}
+/* End default -------- */
+
+
+.opacityBg {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.profileBg {
+  width: 100%;
+  height: 100%;
+  background: url('../img/bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#page1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+#contact{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+
+/* Box size Load -------- */
+#aboutBox,
+#experienceBox,
+#skillsBox,
+#educationBox,
+#contactBox {
+  margin: -150px 0 0 -200px;
+  width: 400px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  word-break: break-all;
+}
+
+
+
+
+/* End Box Size Load -------- */
+
+
+/* Box List Text design -------- */
+
+#contactBox .title,
+#aboutBox .title,
+#experienceBox .title,
+#skillsBox .title,
+#educationBox .title {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+/* End Box List Text design -------- */
+
+#contactBox .subTitle,
+#aboutBox .subTitle,
+#experienceBox .subTitle,
+#skillsBox .subTitle,
+#educationBox .subTitle {
+  font-size: 12px;
+  font-weight: 300;
+  color: #2ECC71;
+}
+
+#contactBox .subTitle2,
+#aboutBox .subTitle2,
+#experienceBox .subTitle2,
+#skillsBox .subTitle2,
+#educationBox .subTitle2 {
+  font-weight: 300;
+  font-style: italic;
+  color: #aaa;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+#contactBox .text,
+#aboutBox .text,
+#experienceBox .text,
+#skillsBox .text,
+#educationBox .text {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Item Box Text */
+.itemTitle {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.itemSubTitle {
+  font-size: 12px;
+  font-weight: 300;
+  color: #2ECC71;
+}
+
+.itemSubTitle2 {
+  font-weight: 300;
+  font-style: italic;
+  color: #AAA;
+  margin: 5px 0;
+  padding: 0;
+  font-size: 13px;
+}
+/* End Item Box Text */
+
+
+/* Social Box */
+.socialBox {
+  width: 140px;
+  float: right;
+  margin-top: 30px;
+}
+
+.socialBox i {
+  color: #000;
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+
+.socialBox a {
+  text-decoration: none;
+  color: #000;
+}
+
+.socialBox a: hover {
+  text-decoration: none;
+}
+
+.socialBox a: visited {
+  color: #000;
+  text-decoration: none;
+}
+/* End Social Box */
+
+
+/* profile */
+
+.profileTextBox {
+    margin: 0 0 0 100px;
+}
+
+.profileImageBox {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+
+
+#page1 #more {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.bg {
+  background: url('../img/bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0% 30%;
+  box-shadow: 1px 2px 100px #ddd;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1004;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.skillItem {
+  margin: 0 0 10px;
+}
+
+.skillItem .title {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 0;
+  font-weight: 300;
+  float: left;
+}
+
+.skillItem .num {
+  float: right;
+  margin: 10px 0;
+}
+
+.pgBg {
+  width: 100%;
+  height: 10px;
+  background: #CAF1DA;
+}
+
+.pg {
+  width: 0%;
+  height: 100%;
+  background: #2ECC71;
+}
+
+.firstText {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* etc */
+
+
+.loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 9999;
+}
+
+#page1 .col-xs-12{
+    height: 50%;
+}
+
+/* Slide Box */
+
+#skillsBox .owl-theme{
+    width: 360px;
+    float: left;
+    height: 100%;
+}
+
+#skillsBox .skill{
+    width: 100px; height: 100px;  float: left; margin: 10px; border: 1px solid #444; display: table;
+}
+
+#skillsBox .skill .align{
+    display: table-cell; text-align: center; vertical-align: middle;
+}
+
+#skillsBox .skill .name{
+    font-weight: 300; font-size: 20px; margin: 0;
+}
+#skillsBox .skill .num{
+    font-weight: 300; font-size: 15px; margin: 10px 0 0;
+}
+
+.arrowBox{
+
+    width: 20px;
+    text-align: center;
+    height: 100%;
+    float: left;
+    line-height: 240px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.arrow{
+    cursor: pointer;
+    color: #000;
+}
+
+/* End Slide Box */
+
+
+/* end etc */
+
+
+
+
+/* Portfolio */
+
+
+#portfolio-1{
+  width: 100%;
+  height: 50%;
+}
+
+#portfolio-2{
+  width: 100%;
+  height: 50%;
+}
+.portfolio-small {
+  cursor: pointer;
+  width: 50%;
+  height: 50%;
+}
+
+.portfolio-large {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+
+.portfolio-image{
+  width: 100%;
+  height: 100%;
+}
+.portfolio-text{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: none;
+}
+
+.portfolio-text .title{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 8px;
+}
+
+.portfolio-text .text{
+  font-size: 20px;
+  font-weight: 200;
+  margin: 8px;
+}
+.bg-images{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.alignBox{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: table;
+}
+
+.alignBox-in{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#project .border{
+  width: 20%;
+  height: 1px;
+  background: #2ECC71;
+  margin: 10px 0;
+}
+
+
+/* End Portfolio */
+
+
+
+
+/* Loading Spin ------------------------------- */
+
+.sk-double-bounce {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+}
+.sk-double-bounce .sk-child {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #2ECC71;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-doubleBounce 2s infinite ease-in-out;
+    animation: sk-doubleBounce 2s infinite ease-in-out;
+}
+
+
+.sk-double-bounce .sk-double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+@-webkit-keyframes sk-doubleBounce {
+    0%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes sk-doubleBounce {
+    0%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+/* End Loading Spin */
+
+
+
+/* media query */
+
+/* mobile screen */
+@media screen and (max-width: 400px) {
+
+}
+
+/* tablet screen */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+  #aboutBox,
+  #experienceBox,
+  #skillsBox,
+  #educationBox,
+  #contactBox {
+    margin: -150px 0 0 -175px;
+    width: 352px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    word-break: break-all;
+  }
+  #skillsBox .owl-theme{
+    width: 312px;
+    float: left;
+    height: 100%;
+  }
+
+  #skillsBox .skill{
+      width: 90px; height: 90px;  float: left; margin: 6px; border: 1px solid #444; display: table;
+  }
+
+  #skillsBox .skill .name{
+      font-weight: 300; font-size: 17px; margin: 0;
+  }
+  #skillsBox .skill .num{
+      font-weight: 300; font-size: 12px; margin: 10px 0 0;
+  }
+
+  .arrowBox{
+
+      width: 20px;
+      text-align: center;
+      height: 100%;
+      float: left;
+      line-height: 200px;
+      font-size: 40px;
+      font-weight: 300;
+  }
+  .arrow{
+      cursor: pointer;
+      color: #000;
+  }
+
+}
